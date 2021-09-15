@@ -1,11 +1,41 @@
-* {
-  background-color: rgb(0, 0, 0);
+:root {
+  --primary-dark: rgb(115, 29, 141);
+  --primary-main: rgb(41, 9, 71);
+}
+body {
+  background-color: var(--primary-main);
+  color: var(--primary-dark);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h1 {
-  color: brown;
+  font-style: italic;
+  text-align: center;
 }
-label,
+.container {
+  width: 50%;
+  margin: auto;
+}
 input,
-button {
-  color: white;
+label {
+  display: block;
+}
+
+input {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+#check-button {
+  display: block;
+  margin-top: 2rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-dark);
+  border-width: medium;
+  padding: 0.5 rem;
+}
+
+#outputBox {
+  margin-top: 2rem;
+  text-align: center;
 }
