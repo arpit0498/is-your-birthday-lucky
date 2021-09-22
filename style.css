@@ -18,8 +18,12 @@ h1 {
 input,
 label {
   display: block;
+  padding-bottom: .5rem;
 }
-
+p{
+  text-align: center;
+  color: aliceblue;
+}
 input {
   margin-bottom: 2rem;
   width: 100%;
@@ -33,6 +37,7 @@ input {
   color: var(--primary-dark);
   border-width: medium;
   padding: 0.5 rem;
+  font:bolder;
 }
 
 #outputBox {
